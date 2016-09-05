@@ -46,7 +46,7 @@ end
 
 group :production do
 	#Changing Gem to use in production which is done through Heorku.  Heroku doesnt like sqlite.
-	gem 'pg'
+	gem 'pg', '0.18.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
